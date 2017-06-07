@@ -15,7 +15,7 @@
 </section>
 
 <section id="writing">
-  <span class="h1"><a href="<%- url_for("archives") %>">Blog</a></span>
+  <span class="h1"><a href="<%- url_for("archives") %>"></a></span>
   <ul class="post-list">
     <% if (theme.customize.show_all_posts) { %>
       <% var show_posts = page.posts.sort('date', 'desc') %>
@@ -23,10 +23,13 @@
       <% var show_posts = site.posts.sort('date', 'desc').limit(theme.customize.post_count || 5) %>
     <% } %>
     <% show_posts.each(function(post, i){ %>
-      <li class="post-item">
+    <hr>
+
+      <li class="post-item post-elemento">
         <%- partial('_partial/post/date', { post: post, class_name: 'meta' }) %>
         <span><%- partial('_partial/post/title', { post: post, index: true, class_name: '' }) %></span>
       </li>
+
     <% }); %>
   </ul>
   <% if (theme.customize.show_all_posts) { %>

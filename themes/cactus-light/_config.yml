@@ -2,10 +2,10 @@ nav:
   Home: /
   Projects: /Projects/
   About: /About/
-  Blog: /archives/
+#   Blog: /archives/
   
 
-projects_url: http://github.com/gabithume
+projects_url: http://github.com/ericmguzmanc
 
 customize:
     gravatar:
