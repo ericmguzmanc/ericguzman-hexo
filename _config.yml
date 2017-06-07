@@ -11,9 +11,9 @@ language:
 timezone:
 
 # URL
-## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+## If your site is put in a subdirectory, set url updated as 'http://yoursite.com/child' and root as '/child/'
 url: http://ericguzman.me
-root: /
+root: /ericguzman
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
