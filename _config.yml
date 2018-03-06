@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Eric Guzmán
+title: ericguzman.me
 subtitle: Im Eric
-description: A Front-End Developer living in Dominican Republic.
+description: Front-End Developer living in Dominican Republic.
 author: Eric Guzmán
 language:
 timezone:
@@ -69,6 +69,6 @@ theme: cactus-light
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git,
-  repo: https://github.com/ericmguzmanc/ericguzman.github.io.git,
-  branch: gh-pages
+  repo: https://github.com/ericmguzmanc/ericguzman.git,
+  branch: master
   message: {{ now('YYYY-MM-DD HH:mm:ss') }}

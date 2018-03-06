@@ -14,24 +14,23 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/logo.png
+        url: /images/mainpic2.jpg
         gravatar: false
     favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/favicon.ico
+        url: /images/mainpic2.jpg
         gravatar: false
       android:
-        url: /images/favicon-192x192.png
+        url: /images/mainpic2.jpg
         gravator: false
       apple:
-        url: /images/apple-touch-icon.png
+        url: /images/mainpic2.jpg
         gravator: false
     social_links:
-        github: http://github.com/gabithume/cactus-light
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/ericmguzmanc
+        twitter: https://twitter.com/imericguzman
+        linkedin: https://www.linkedin.com/in/imericguzman/ 
     show_all_posts: false
     post_count: 5
     highlight: monokai
