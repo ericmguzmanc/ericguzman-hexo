@@ -1,4 +1,4 @@
-<section id="about">
+<section id="about" class="animated fadeIn">
   <% if (config.description) { %>
     <%- markdown(config.description) %>
   <% } %>
@@ -14,7 +14,7 @@
   </p>
 </section>
 
-<section id="writing">
+<section id="writing" class="animated fadeIn">
   <span class="h1"><a href="<%- url_for("archives") %>"></a></span>
   <ul class="post-list">
     <% if (theme.customize.show_all_posts) { %>

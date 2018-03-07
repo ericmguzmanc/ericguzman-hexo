@@ -19,13 +19,13 @@ customize:
     favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
-        url: /images/mainpic2.jpg
+        url: /images/favico.png
         gravatar: false
       android:
-        url: /images/mainpic2.jpg
+        url: /images/favico.png
         gravator: false
       apple:
-        url: /images/mainpic2.jpg
+        url: /images/favico.png
         gravator: false
     social_links:
         github: https://github.com/ericmguzmanc
